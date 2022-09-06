@@ -16,7 +16,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <div>Zahra Olanrewaju </div>
+   
       <div className="container ">
         <div className="app-bg">
           <div className="box">

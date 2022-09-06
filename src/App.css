@@ -240,7 +240,8 @@ h1{
 /*  get started */
 .gs-circle{
   border-radius: 50%;
-  background-color:#3ae8f1;
+  background-color:#3ae8f1a4;
+  opacity: 10px;
   border: none;
   color: white;
   padding: 10px;
@@ -253,4 +254,16 @@ filter: drop-shadow(10px 3px 6px);
   font-size: 12px;
   margin: 4px 2px;
   cursor: pointer;
+}
+/* stats */
+.stats{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.h4-stat{
+  font-size: 30px;
+}
+.stat-t{
+  font-weight: 300;
+    color: #3ae8f1;
 }
