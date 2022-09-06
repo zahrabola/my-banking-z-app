@@ -33,7 +33,7 @@ const Navbar = () => {
       </nav>
       <div>
         <div className="nav-sb">
-          {navLinks.map((nav, index) => (
+          {navLinks.map((nav) => (
             <div key={nav.id} className="nav-sb">
               <a className="sb">{nav.title}</a>
             </div>
