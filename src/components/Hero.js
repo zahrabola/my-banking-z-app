@@ -27,7 +27,7 @@ const Hero = () => {
            
           </div>
        <div className="col-1 btnh"> <GetStarted /> </div>
-          <div className="col-5 menu">
+          <div className="col-5 ">
             <img src={robot} alt="billing" className="img-robot" />
           </div>
         </div>
