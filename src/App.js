@@ -6,7 +6,7 @@ import Billing from './components/Billing';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Stats from './components/Stats';
-import Currency from './components/Currency';
+////import Currency from './components/Currency';
 import Stocks from './components/Stocks';
 import Testimonials from './components/Testimonials';
 import Clients from './components/Clients';
@@ -32,7 +32,7 @@ function App() {
           <div className="box">
             <Stats />
             <Business />
-            <Currency />
+            ---- currency
             <Billing />
             <CardDeal />
             <Stocks />
