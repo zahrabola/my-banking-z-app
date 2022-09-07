@@ -16,8 +16,7 @@
                 Elit enim sed massa etiam. Mauris eu adipiscing ultrices
                 ametodio aenean neque. <br />
                 Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
-                Elit enim sed massa etiam. Mauris eu adipiscing ultrices
-                ametodio aenean neque. <br />
+              
                 
               </p>
               <div className="row">

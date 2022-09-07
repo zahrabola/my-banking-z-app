@@ -27,6 +27,7 @@ const Business = () => {
               earning rewards and saving money. <br />
               But with hundreds of credit cards on the market.
             </p>
+            <div className="row">Button</div>
           </div>
 
           <div className="col-5 ">

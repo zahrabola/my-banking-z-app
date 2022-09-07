@@ -108,11 +108,11 @@ justify-content: center;
   transition: width 0.7s ease, background-color 0.5s ease;
 }
 .img-robot{
-  width: 450px;
+  width: 90%;
 
 }
 .bill-img{
-  width: 320px;
+  width: 90%;
 
 }
 
@@ -223,7 +223,7 @@ justify-content: center;
 }
 
 .img-robot{
-height : 600px;
+width: 90%;
 }
 
 section {
@@ -310,10 +310,14 @@ border-radius: 15px;
   padding: 10px;
 }
 /*  billimg */
+.Billing{
+  padding-top:10px ;
+  margin: 20px;
+}
 .bill-img{
  padding: 10px;
  margin-top: 20px;
-width: 90%;
+width: 100%;
 
 }
 .img-bil{
@@ -321,5 +325,17 @@ width: 90%;
   padding: 10px;
 }
 .bill-t{
+  padding: 10px;
+}
+/* card deal */
+.card-img{
+  width: 90%;
+  padding: 10px;
+}
+.carddeal{
+    padding-top:10px ;
+  margin: 20px;
+}
+.cd-text{
   padding: 10px;
 }
