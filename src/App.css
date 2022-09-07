@@ -339,3 +339,34 @@ width: 100%;
 .cd-text{
   padding: 10px;
 }
+/*feedbackcard */
+
+/* clients */
+.clients{
+  justify-content: center; 
+  margin-top: 1rem;
+margin-bottom: 1rem; 
+}
+.cl-row{
+width: 100%; 
+
+@media (min-width: 640px) { 
+  flex-wrap: wrap; 
+ }
+
+}
+.cl-img{
+  object-fit: contain; 
+width: 100px;
+
+@media (min-width: 640px) { 
+  width: 192px;
+ }
+
+}
+.cl-id{
+  margin: 1.25rem; 
+
+@media (min-width: 640px) { 
+   }
+}
