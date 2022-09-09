@@ -37,9 +37,15 @@ function App() {
             <CardDeal />
             <Stocks />
             <Testimonials />
-            <Clients />
-            <CTA /> 
-            <Footer /> 
+            <div className="row">
+              <div className="col-12">
+                <Clients />
+              </div>
+ 
+                <CTA />
+            
+            </div>
+            <Footer />
           </div>
         </div>
       </div>

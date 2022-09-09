@@ -342,31 +342,13 @@ width: 100%;
 /*feedbackcard */
 
 /* clients */
-.clients{
-  justify-content: center; 
-  margin-top: 1rem;
-margin-bottom: 1rem; 
-}
-.cl-row{
-width: 100%; 
 
-@media (min-width: 640px) { 
-  flex-wrap: wrap; 
- }
-
+.id-cl{
+  padding: 20px;
+ display: inline-block;
+          flex-direction: row-reverse;
+          justify-content: space-between;
 }
 .cl-img{
   object-fit: contain; 
-width: 100px;
-
-@media (min-width: 640px) { 
-  width: 192px;
- }
-
-}
-.cl-id{
-  margin: 1.25rem; 
-
-@media (min-width: 640px) { 
-   }
-}
+width: 200px;}

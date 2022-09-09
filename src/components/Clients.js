@@ -4,18 +4,17 @@ const Clients = () => {
   return (
     <section className="clients">
       <div className="cl-row">
-        {clients.map((client) => (
-          <div
-            key={client.id}
-            className="cl-id"
-          >
-            <img
-              src={client.logo}
-              alt="client_logo"
-              className="cl-img"
-            />
+    
+        <div class="box1">
+
+          <div>
+            {clients.map((client) => (
+              <div key={client.id} className="id-cl" >
+                <img src={client.logo} alt="client_logo" className="cl-img" />
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
     </section>
   );
