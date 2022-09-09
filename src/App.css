@@ -116,7 +116,9 @@ justify-content: center;
 
 }
 
+
 }
+
 
 @media screen and (max-width: 960px) {
   .nav-menu {
@@ -158,7 +160,9 @@ justify-content: center;
   }
 
 
+
 }
+
  
 
 /*  columns */
@@ -342,7 +346,6 @@ width: 100%;
 /*feedbackcard */
 
 /* clients */
-
 .id-cl{
   padding: 20px;
  display: inline-block;
@@ -352,3 +355,8 @@ width: 100%;
 .cl-img{
   object-fit: contain; 
 width: 200px;}
+/* stocks */ 
+.line-s{
+    padding: 30px; 
+ 
+}

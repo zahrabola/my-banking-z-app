@@ -5,7 +5,7 @@ const Clients = () => {
     <section className="clients">
       <div className="cl-row">
     
-        <div class="box1">
+        <div className="box1">
 
           <div>
             {clients.map((client) => (

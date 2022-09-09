@@ -41,9 +41,7 @@ function App() {
               <div className="col-12">
                 <Clients />
               </div>
- 
                 <CTA />
-            
             </div>
             <Footer />
           </div>
