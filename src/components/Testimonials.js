@@ -24,7 +24,6 @@ const Testimonials = () => {
             <FeedbackCard key={card.id} {...card} />
           ))}
         </div>
-        <div> Testimonials </div>
       </div>
     </section>
   );
