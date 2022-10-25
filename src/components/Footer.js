@@ -6,13 +6,13 @@ const Footer = () => {
     <section>
       <div>
         <div className="row">
-          <div className="col-6">
+          <div className="col-12">
             <img src={logo} alt="z-bank" className="z-bank" />
             <p className="">
               A new way to make the payments easy, reliable and secure.
             </p>
           </div>
-          <div className="col-6">
+          <div className="col-12">
             {footerLinks.map((footerlink) => (
               <div key={footerlink.title} className="footer-link">
                 <h4>{footerlink.title}</h4>

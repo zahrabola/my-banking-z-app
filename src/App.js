@@ -6,12 +6,13 @@ import Billing from './components/Billing';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Stats from './components/Stats';
-////import Currency from './components/Currency';
+
 import Stocks from './components/Stocks';
 import Testimonials from './components/Testimonials';
 import Clients from './components/Clients';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
+//import Currency from './components/Currency';
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
           <div className="box">
             <Stats />
             <Business />
-            ---- currency
+       
             <Billing />
             <CardDeal />
             <Stocks />
@@ -41,9 +42,9 @@ function App() {
               <div className="col-12">
                 <Clients />
               </div>
-                <CTA />
+              <CTA />
+              <Footer />
             </div>
-            <Footer />
           </div>
         </div>
       </div>
