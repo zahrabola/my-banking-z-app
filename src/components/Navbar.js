@@ -16,9 +16,9 @@ const Navbar = () => {
         </div>
         <div className="nav-container">
           <ul className="nav-menu">
-            {navLinks.map((nav, index) => (
+            {navLinks.map((nav) => (
               <li key={nav.id} className="nav-item ">
-                <a href="#">{nav.title}</a>
+                <p>{nav.title}</p>
               </li>
             ))}
           </ul>
@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="nav-sb">
           {navLinks.map((nav) => (
             <div key={nav.id} className="nav-sb">
-              <a href="#"className="sb">{nav.title}</a>
+              <a href="subtitle"className="sb">{nav.title}</a>
             </div>
           ))}
         </div>
